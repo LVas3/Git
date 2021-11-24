@@ -6,7 +6,8 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = "Leonid";
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
