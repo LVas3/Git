@@ -6,8 +6,11 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            string name = "Leonid";
-            Console.WriteLine($"Hello {name} \n How are u?");
+            
+            for(int i =0; i < 10; i++)
+            {
+                Console.WriteLine("Привет!");
+            }
         }
     }
 }
